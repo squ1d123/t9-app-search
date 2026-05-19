@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CC000000"
+    android:padding="4dp">
+
+    <!-- Results row: 3 app slots -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/result_0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+            <ImageView
+                android:id="@+id/icon_0"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/label_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:maxLines="1"
+                android:ellipsize="end" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/result_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+            <ImageView
+                android:id="@+id/icon_1"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/label_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:maxLines="1"
+                android:ellipsize="end" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/result_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+            <ImageView
+                android:id="@+id/icon_2"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/label_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:maxLines="1"
+                android:ellipsize="end" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- T9 Keypad -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <!-- Row 1: Clear, ABC(2), DEF(3) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Button android:id="@+id/btn_clear" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="CLR" android:textSize="12sp" android:background="#44FFFFFF" android:textColor="#FFFFFF" android:layout_margin="2dp" />
+            <Button android:id="@+id/btn_2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="ABC\n2" android:textSize="12sp" android:background="#44FFFFFF" android:textColor="#FFFFFF" android:layout_margin="2dp" />
+            <Button android:id="@+id/btn_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="DEF\n3" android:textSize="12sp" android:background="#44FFFFFF" android:textColor="#FFFFFF" android:layout_margin="2dp" />
+        </LinearLayout>
+
+        <!-- Row 2: GHI(4), JKL(5), MNO(6) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Button android:id="@+id/btn_4" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="GHI\n4" android:textSize="12sp" android:background="#44FFFFFF" android:textColor="#FFFFFF" android:layout_margin="2dp" />
+            <Button android:id="@+id/btn_5" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="JKL\n5" android:textSize="12sp" android:background="#44FFFFFF" android:textColor="#FFFFFF" android:layout_margin="2dp" />
+            <Button android:id="@+id/btn_6" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="MNO\n6" android:textSize="12sp" android:background="#44FFFFFF" android:textColor="#FFFFFF" android:layout_margin="2dp" />
+        </LinearLayout>
+
+        <!-- Row 3: PQRS(7), TUV(8), WXYZ(9) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Button android:id="@+id/btn_7" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="PQRS\n7" android:textSize="12sp" android:background="#44FFFFFF" android:textColor="#FFFFFF" android:layout_margin="2dp" />
+            <Button android:id="@+id/btn_8" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="TUV\n8" android:textSize="12sp" android:background="#44FFFFFF" android:textColor="#FFFFFF" android:layout_margin="2dp" />
+            <Button android:id="@+id/btn_9" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="WXYZ\n9" android:textSize="12sp" android:background="#44FFFFFF" android:textColor="#FFFFFF" android:layout_margin="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
