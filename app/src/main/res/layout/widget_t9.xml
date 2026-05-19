@@ -24,14 +24,14 @@
             android:padding="4dp">
             <ImageView
                 android:id="@+id/icon_0"
-                android:layout_width="56dp"
-                android:layout_height="56dp" />
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
             <TextView
                 android:id="@+id/label_0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#FFFFFF"
-                android:textSize="11sp"
+                android:textSize="18sp"
                 android:maxLines="1"
                 android:ellipsize="end"
                 android:layout_marginTop="2dp" />
@@ -47,14 +47,14 @@
             android:padding="4dp">
             <ImageView
                 android:id="@+id/icon_1"
-                android:layout_width="56dp"
-                android:layout_height="56dp" />
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
             <TextView
                 android:id="@+id/label_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#FFFFFF"
-                android:textSize="11sp"
+                android:textSize="18sp"
                 android:maxLines="1"
                 android:ellipsize="end"
                 android:layout_marginTop="2dp" />
@@ -70,14 +70,14 @@
             android:padding="4dp">
             <ImageView
                 android:id="@+id/icon_2"
-                android:layout_width="56dp"
-                android:layout_height="56dp" />
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
             <TextView
                 android:id="@+id/label_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#FFFFFF"
-                android:textSize="11sp"
+                android:textSize="18sp"
                 android:maxLines="1"
                 android:ellipsize="end"
                 android:layout_marginTop="2dp" />
@@ -88,7 +88,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:orientation="vertical"
         android:layout_marginTop="4dp">
 
@@ -98,9 +98,9 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal">
-            <Button android:id="@+id/btn_clear" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="CLR" android:textSize="11sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
-            <Button android:id="@+id/btn_2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="ABC\n2" android:textSize="11sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
-            <Button android:id="@+id/btn_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="DEF\n3" android:textSize="11sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
+            <Button android:id="@+id/btn_clear" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="CLR" android:textSize="18sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
+            <Button android:id="@+id/btn_2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="2\nABC" android:textSize="18sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
+            <Button android:id="@+id/btn_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="3\nDEF" android:textSize="18sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
         </LinearLayout>
 
         <!-- Row 2: GHI(4), JKL(5), MNO(6) -->
@@ -109,9 +109,9 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal">
-            <Button android:id="@+id/btn_4" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="GHI\n4" android:textSize="11sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
-            <Button android:id="@+id/btn_5" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="JKL\n5" android:textSize="11sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
-            <Button android:id="@+id/btn_6" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="MNO\n6" android:textSize="11sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
+            <Button android:id="@+id/btn_4" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="4\nGHI" android:textSize="18sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
+            <Button android:id="@+id/btn_5" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="5\nJKL" android:textSize="18sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
+            <Button android:id="@+id/btn_6" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="6\nMNO" android:textSize="18sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
         </LinearLayout>
 
         <!-- Row 3: PQRS(7), TUV(8), WXYZ(9) -->
@@ -120,9 +120,9 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal">
-            <Button android:id="@+id/btn_7" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="PQRS\n7" android:textSize="11sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
-            <Button android:id="@+id/btn_8" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="TUV\n8" android:textSize="11sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
-            <Button android:id="@+id/btn_9" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="WXYZ\n9" android:textSize="11sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
+            <Button android:id="@+id/btn_7" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="7\nPQRS" android:textSize="18sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
+            <Button android:id="@+id/btn_8" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="8\nTUV" android:textSize="18sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
+            <Button android:id="@+id/btn_9" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="9\nWXYZ" android:textSize="18sp" android:background="@drawable/key_background" android:textColor="#FF9800" android:layout_margin="3dp" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
